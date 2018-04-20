@@ -230,27 +230,74 @@ p {
 }
 
 /*  media queries  */
+
 /* max-widths: 980px, 768px and 640px. */
+
 /* Small devices (landscape phones, 576px and up) */
+
 @media (min-width: 640px) {
+  .head {
+    max-width: 100vw;
+  }
+  .heading {
+    width: 100%;
+  }
+  .logo {
+    width: fit-content;
+  }
+  .move-right {
+    padding-left: 27%;
+  }
   .content {
-    background-color: red;
+    /* using background color to help see what i'm changing better */
+    /* background-color: red; */
     background-image: none;
+    width: 80%;
+  }
+  .cats {
+    width: auto;
+  }
+  .imgBox {
+    margin-left: 27%;
+    /* margin-right: 1%; */
+  }
+  .portext1 {
+    top: -60px;
+    left: unset;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
+  .head {
+    max-width: 80%;
+  }
+  .heading {
+    width: 100px;
+  }
+  .move-right {
+    padding-left: 0;
+  }
   .content {
     background-color: blue;
     background-image: none;
+    width: 80%;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
+
 @media (min-width: 980px) {
   .content {
     background-color: yellow;
     background-image: none;
+    max-width: 960px;
+  }
+  .cats {
+    width: 200pt;
+  }
+  .imgBox {
+    width: 200px;
   }
 }
