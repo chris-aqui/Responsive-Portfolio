@@ -274,11 +274,15 @@ p {
   }
   .portImg1 {
     float: unset;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .portext {
+    margin-left: 30%;
+    margin-right: 30%;
   }
   #contactSocial {
-    width: 80vw;
+    width: 80%;
     position: unset;
   }
   .rightSide {
@@ -286,6 +290,9 @@ p {
     float: unset;
     width: 80%;
     padding: 10px;
+  }
+  .icons {
+    float: none;
   }
   .foot {
     width: 100%;
