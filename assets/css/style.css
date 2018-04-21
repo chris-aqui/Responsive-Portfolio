@@ -234,6 +234,27 @@ p {
 /* max-widths: 980px, 768px and 640px. */
 
 /* Small devices (landscape phones, 576px and up) */
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 
 @media (max-width: 640px) {
   .container {
@@ -251,18 +272,24 @@ p {
   .move-right {
     /* padding-left: 27%; */
     padding-left: unset;
-    margin-left: 30%;
+    /* margin-left: 30%; */
   }
   .navLi {
     padding: 10px;
   }
+  .navItems {
+    width: 640px;
+    margin-left: 30%;
+    margin-right: 10%;
+  }
   .content {
-    /* using background color to help see what i'm changing better */
-    background-image: none;
+    /* background-image: none; */
     width: 80%;
   }
   .cats {
-    width: auto;
+    width: 80%;
+    margin: 5% 10%;
+    height: fit-content;
   }
   .imgBox {
     /* margin-left: 27%; */
@@ -289,10 +316,13 @@ p {
     position: unset;
     float: unset;
     width: 80%;
+    height: 180px;
     padding: 10px;
+    margin-bottom: 100px;
   }
   .icons {
-    float: none;
+    /* float: left; */
+    margin: 0 0;
   }
   .foot {
     width: 100%;
@@ -304,22 +334,28 @@ p {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
   .head {
-    max-width: 100vw;
+    max-width: 100%;
   }
   .heading {
     /* width: 100px; */
   }
   .move-right {
-    padding-left: 0;
+    padding-left: 27%;
   }
   .content {
     /* background-color: blue; */
     background-image: none;
     width: 80vw;
   }
+  .cats {
+    width: auto;
+  }
   .foot {
-    width: 100vw;
+    width: 100%;
     position: unset;
     padding: 2px;
   }
