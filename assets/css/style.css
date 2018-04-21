@@ -234,6 +234,7 @@ p {
 /* max-widths: 980px, 768px and 640px. */
 
 /* Small devices (landscape phones, 576px and up) */
+
 /*
 
 
@@ -279,10 +280,11 @@ p {
   }
   .navItems {
     width: 640px;
-    margin-left: 30%;
-    margin-right: 10%;
+    margin-left: 1%;
+    /* margin-right: 10%; */
   }
   .content {
+    background-color: green;
     /* background-image: none; */
     width: 80%;
   }
@@ -334,9 +336,6 @@ p {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
   .head {
     max-width: 100%;
   }
@@ -347,7 +346,7 @@ p {
     padding-left: 27%;
   }
   .content {
-    /* background-color: blue; */
+    background-color: blue;
     background-image: none;
     width: 80vw;
   }
@@ -363,7 +362,10 @@ p {
 
 /* Large devices (desktops, 992px and up) */
 
-/* @media (min-width: 980px) {
+@media (min-width: 980px) {
+  .container {
+    max-width: 100vw;
+  }
   .content {
     background-color: yellow;
     background-image: none;
@@ -375,4 +377,4 @@ p {
   .imgBox {
     width: 200px;
   }
-} */
+}
