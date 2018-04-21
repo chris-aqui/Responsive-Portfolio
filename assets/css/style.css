@@ -235,7 +235,7 @@ p {
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .head {
     max-width: 100vw;
   }
@@ -247,10 +247,11 @@ p {
   }
   .move-right {
     padding-left: 27%;
+    /* padding-left: auto; */
   }
   .content {
     /* using background color to help see what i'm changing better */
-    /* background-color: red; */
+    background-color: red;
     background-image: none;
     width: 80%;
   }
@@ -258,7 +259,7 @@ p {
     width: auto;
   }
   .imgBox {
-    margin-left: 27%;
+    /* margin-left: 27%; */
     /* margin-right: 1%; */
   }
   .portext1 {
@@ -269,7 +270,7 @@ p {
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .head {
     max-width: 80%;
   }
@@ -284,10 +285,11 @@ p {
     background-image: none;
     width: 80%;
   }
-}
+} */
 
 /* Large devices (desktops, 992px and up) */
 
+/*
 @media (min-width: 980px) {
   .content {
     background-color: yellow;
@@ -300,4 +302,4 @@ p {
   .imgBox {
     width: 200px;
   }
-}
+} */
