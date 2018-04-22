@@ -1,87 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Contact Me!</title>
-  <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <title>About | Christine</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-  <div class="container">
-    <div class="head">
-      <ul class="heading">
-        <li class="logo">
-          <h1>Christine</h1>
-        </li>
-        <div class="navItems">
-          <li class="move-right navLi">
-            <a href="./index.html">About!</a>
-          </li>
-          <li class="navLi">
-            <a href="./portfolio.html">| Portfolio! |</a>
-          </li>
-          <li class="navLi">
-            <a href="./contact.html">Contact!</a>
-          </li>
-        </div>
-      </ul>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Christine</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <!--  -->
-    <div class="content" id="contactSocial">
-      <!-- Content here -->
-      <section class="subContent">
-        <div class="leftSide">
-          <h2>Contact</h2>
-          <hr class="aLine">
-          <form action="mailto:christine.aqui@mail.utoronto.ca" method: "post">
-            <label for="name">Name:</label>
-            <br>
-            <input class="inputGroup" type="text" name="name" placeholder="Jane Smith" required>
-            <br>
-            <label for="email">Email:</label>
-            <br>
-            <input class="inputGroup" type="email" name="email" placeholder="exmple@gmail.com" required>
-            <br>
-            <label for="message">Message:</label>
-            <br>
-            <textarea class="inputGroup" name="message" rows="5" cols="50" required> </textarea>
-            <br>
-            <input class='button' type="submit" value="Submit">
-          </form>
-        </div>
-        <!--  -->
+  </header>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-      </section>
-      <!-- Content ends here -->
-    </div>
-    <!--  -->
-    <div class="rightSide" id="social2">
-      <h2>Connect with Me</h2>
-      <hr class="aLine">
-      <div class="icons">
-        <a href="https://github.com/christine-aqui" target="_blank">
-          <img src="./assets/images/githb.png" alt="github">
-        </a>
-      </div>
-      <div class="icons">
-        <a href="https://www.linkedin.com/in/christineaqui/" target="_blank">
-          <img src="./assets/images/linkedin.png" alt="linkedin"> </a>
-      </div>
-      <div class="icons">
-        <a href="https://stackoverflow.com/story/chrisaqui" target="_blank">
-          <img src="./assets/images/stackoverflow-4-xxl.png" alt="Stack Overflow"> </a>
-      </div>
-    </div>
-    <!--  -->
-    <!-- <hr class="bLine"> -->
-    <footer class="foot">
-      <h4>Copyright © 2018</h4>
-    </footer>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
   </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
 </body>
 
 </html>
